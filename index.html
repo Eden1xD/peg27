@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site oficial da chapa PEG - Progresso Estudantil Gremista.">
+  <meta name="theme-color" content="#0B0712">
+  <title>PEG | Progresso Estudantil Gremista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <!-- Ícone na aba do navegador -->
+<link rel="icon" type="image/png" href="chapa.jpg">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="nav-shell">
+      <a class="brand" href="#inicio" aria-label="PEG, voltar ao início">
+        <span class="brand-mark">PEG<span>.</span></span>
+        <span class="brand-name">Progresso Estudantil<br>Gremista</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#membros">Membros</a>
+        <a class="nav-cta" href="#propostas">Propostas</a>
+        <a class="nav-cta" href="#propostas">Votação(demo)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-orb orb-one" aria-hidden="true"></div>
+      <div class="hero-orb orb-two" aria-hidden="true"></div>
+      <div class="hero-grid">
+        <div class="hero-copy hero-enter">
+          <p class="eyebrow"><span></span> Chapa PEG <b>•</b> Grêmio estudantil</p>
+          <h1 id="hero-title">A voz dos estudantes. <span>O movimento da mudança.</span></h1>
+          <p class="hero-lead">Mais do que uma chapa, somos estudantes com ideias, atitude e vontade de fazer a diferença. Queremos construir uma escola com mais participação, oportunidades, união e momentos que realmente marquem nossa trajetória.</p>
+          <div class="hero-actions">
+            
+            <a class="button button-secondary" href="#membros"> <i class="fa-solid fa-users" aria-hidden="true"></i>Conheça nossa equipe</a>
+          </div>
+          
+          
+        </div>
+
+        <div class="hero-visual hero-enter">
+          <span class="visual-line line-a" aria-hidden="true"></span>
+          <span class="visual-line line-b" aria-hidden="true"></span>
+          <figure class="hero-photo media-frame">
+            <img src="chapa.jpg" alt="Fotografia oficial da equipe da chapa PEG" fetchpriority="high">
+            <div class="media-fallback" aria-hidden="true">
+              <span class="fallback-monogram">PEG</span>
+              <p>Fotografia oficial da chapa</p>
+              <small>Adicione a imagem em assets/img/chapa.jpg</small>
+            </div>
+            <figcaption><span>Juntos pela escola</span><strong>CHAPA PEG</strong></figcaption>
+          </figure>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#propostas" aria-label="Rolar para propostas"><span></span></a>
+    </section>
+
+    <section class="section proposals" id="propostas" aria-labelledby="propostas-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">O que defendemos</p>
+          <h2 id="propostas-title">Ideias que saem do papel.</h2>
+          <p>Conheça nossas propostas para tornar a experiência escolar mais participativa, dinâmica e interessante para todos.</p>
+        </div>
+
+        <div class="proposal-grid">
+          <article class="proposal-item reveal"><span class="item-number">01</span><i class="fa-regular fa-comments" aria-hidden="true"></i><h3>Agita Galera</h3><p>o Agita Galera (dia da comunidade ativa)
+une a turma em um evento de saúde e
+integração comunitária. com gincanas,
+desenhos e desfile reciclável, o projeto
+estimula a criatividade, a sustentabilidade
+e a união entre os alunos de forma
+divertida.</p></article>
+          <article class="proposal-item reveal"><span class="item-number">02</span><i class="fa-solid fa-people-group" aria-hidden="true"></i><h3>SLS — Sábado Letivo Solidário</h3><p>o Sábado Letivo Solidário (SLS), tem como
+objetivo realizar um bazar comunitário para
+troca, venda acessível e doação de roupas
+e agasalhos para quem precisa. o projeto
+une a turma, estimula a solidariedade e
+transforma a escola em uma corrente do
+bem.</p></article>
+          <article class="proposal-item reveal"><span class="item-number">03</span><i class="fa-solid fa-medal" aria-hidden="true"></i><h3>Operação Prova Paulista
+</h3><p>o projeto da prova paulista incentiva a
+participação e o empenho de todos a cada
+bimestre. a sala com maior porcentagem
+de presença e melhores notas ganha um
+prêmio especial e reconhecimento na
+escola. a iniciativa estimula a dedicação
+nos estudos e o trabalho em equipe por um
+objetivo comum.</p></article>
+          <article class="proposal-item reveal"><span class="item-number">04</span><i class="fa-solid fa-palette" aria-hidden="true"></i><h3>Interclasses</h3><p>O grêmio estudantil propõe a realização de
+diversos interclasses ao longo do ano,
+trazendo espaço para modalidades menos
+praticadas, como o handebol. a ideia é
+valorizar diferentes esportes, incentivar a
+participação de todos e fortalecer a
+integração entre as turmas de forma
+saudável e dinâmica.</p></article>
+          <article class="proposal-item reveal"><span class="item-number">05</span><i class="fa-solid fa-bullhorn" aria-hidden="true"></i><h3>Eventos</h3><p>O projeto de eventos culturais na escola dá
+mais ênfase a datas comemorativas
+marcantes, como o correio elegante no dia
+dos namorados, gincanas conscientizadoras
+no dia da consciência negra e um baile de
+fim de ano para fechar o ciclo escolar. a
+iniciativa promove a valorização de
+diferentes culturas, estimula a participação
+dos alunos e torna a escola um ambiente
+mais leve, inclusivo e integrado.</p></article>
+          <article class="proposal-item reveal"><span class="item-number">06</span><i class="fa-solid fa-school" aria-hidden="true"></i><h3>Painéis informativos</h3><p>O projeto dos painéis informativos mantém a
+escola atualizada sobre campanhas
+essenciais, como o outubro rosa e o
+setembro amarelo. com cartazes atrativos,
+organizados e diretos, a ideia é chamar a
+atenção dos alunos para assuntos
+importantes, promovendo o conhecimento, a
+conscientização e o cuidado dentro do
+ambiente escolar.
+</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section members" id="membros" aria-labelledby="membros-title">
+      <div class="section-shell">
+        <div class="section-heading reveal">
+          <p class="section-kicker">Nossa equipe</p>
+          <h2 id="membros-title">Quem está por trás da PEG?</h2>
+          <p>Uma equipe de estudantes unida pela vontade de representar, ouvir e fazer acontecer.</p>
+        </div>
+
+        <div class="member-grid">
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="coodgeral.png" alt="Foto do integrante 01" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-01.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Geral </h3><p class="demo-label"></p>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="vicecood.png" alt="Foto do integrante 04" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-04.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Vice Coordenador(a) </h3><p class="demo-label"></p>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="comunitario.png" alt="Foto do integrante 02" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-02.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Comunitario e Vice</h3><p class="demo-label"></p>
+          </article>
+
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="convivencia.png" alt="Foto do integrante 03" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-03.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Convivencia Escolar e Vice</h3><p class="demo-label"></p>
+          </article>
+
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="artistico.png" alt="Foto do integrante 04" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-04.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Artistico e Vice</h3><p class="demo-label"></p>
+          </article>
+          
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="deportiva.png" alt="Foto do integrante 04" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-04.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Desportivo e Vices</h3><p class="demo-label"></p>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="saude.png" alt="Foto do integrante 04" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-04.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Saude e Sustentabilidade e Vice</h3><p class="demo-label"></p>
+          </article>
+
+          <article class="member reveal">
+            <div class="member-photo media-frame"><img src="comunicacao.png" alt="Foto do integrante 04" loading="lazy"><div class="media-fallback"><i class="fa-regular fa-user" aria-hidden="true"></i><small>assets/img/membros/integrante-04.jpg</small></div></div>
+            <p class="member-role">PEG 2027</p><h3>Coordenador(a) Comunicação e Vice</h3><p class="demo-label"></p>
+          </article>
+
+          
+        </div>
+       
+      </div>
+    </section>
+
+   
+
+    
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <a class="brand" href="#inicio"><span class="brand-mark">PEG<span>.</span></span><span class="brand-name">Progresso Estudantil<br>Gremista</span></a>
+      <nav class="footer-nav" aria-label="Navegação do rodapé"><a href="#propostas">Propostas</a><a href="#membros">Membros</a></nav>
+      <p class="social-placeholder">   </p>
+    </div>
+    <div class="footer-bottom"><p>© <span id="currentYear"></span> PEG. Representar, ouvir e construir juntos.</p><a href="#inicio">Voltar ao topo <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a></div>
+  </footer>
+
+  <div class="image-modal" id="imageModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" type="button" data-close-modal aria-label="Fechar visualização"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+      <div class="modal-media"><img id="modalImage" src="" alt=""><div class="modal-placeholder" id="modalPlaceholder"><i class="fa-regular fa-image" aria-hidden="true"></i><p>Imagem ainda não adicionada</p><small id="modalPath"></small></div></div>
+      <h3 id="modalTitle"></h3>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
